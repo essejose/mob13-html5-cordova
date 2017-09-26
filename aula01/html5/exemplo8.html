@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+  <head>
+  <meta charset="UTF-8">
+  <title>Exemplo usando Web Worker</title>
+</head>
+ <body>
+<output id="resultado" style="border: 1px solid black; width: 300px height: 300px"></output>
+</body>
+</html>
+<script type="text/javascript">
+if(typeof window.Worker === "function")
+{
+  var worker = new Worker("exemplo8.js");
+  // Evento onmessage para tratar a mensagem enviada pelo worker
+  worker.onmessage = function (event)
+  {
+    document.getElementById("resultado").textContent=document.getElementById("resultado").textContent+event.data+" ";
+  }
+}
+</script>

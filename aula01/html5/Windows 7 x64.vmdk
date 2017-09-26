@@ -1,0 +1,38 @@
+# Disk DescriptorFile
+version=1
+encoding="windows-1252"
+CID=1a9dfe58
+parentCID=ffffffff
+isNativeSnapshot="no"
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 8304640 SPARSE "Windows 7 x64-s001.vmdk"
+RW 8304640 SPARSE "Windows 7 x64-s002.vmdk"
+RW 8304640 SPARSE "Windows 7 x64-s003.vmdk"
+RW 8304640 SPARSE "Windows 7 x64-s004.vmdk"
+RW 8304640 SPARSE "Windows 7 x64-s005.vmdk"
+RW 8304640 SPARSE "Windows 7 x64-s006.vmdk"
+RW 8304640 SPARSE "Windows 7 x64-s007.vmdk"
+RW 8304640 SPARSE "Windows 7 x64-s008.vmdk"
+RW 8304640 SPARSE "Windows 7 x64-s009.vmdk"
+RW 8304640 SPARSE "Windows 7 x64-s010.vmdk"
+RW 8304640 SPARSE "Windows 7 x64-s011.vmdk"
+RW 8304640 SPARSE "Windows 7 x64-s012.vmdk"
+RW 8304640 SPARSE "Windows 7 x64-s013.vmdk"
+RW 8304640 SPARSE "Windows 7 x64-s014.vmdk"
+RW 8304640 SPARSE "Windows 7 x64-s015.vmdk"
+RW 1259520 SPARSE "Windows 7 x64-s016.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "7832"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "ab4d5adcdbf5060b7e3e78701a9dfe58"
+ddb.toolsInstallType = "1"
+ddb.toolsVersion = "9507"
+ddb.uuid = "60 00 C2 93 67 22 6a 0f-84 a1 da c3 0b a6 3e 64"
+ddb.virtualHWVersion = "11"
